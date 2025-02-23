@@ -6,3 +6,4 @@ Thank you for installing {{ .Chart.Name }}.
 **************************************************
 
 Your NIM version is: {{ .Values.image.tag | default .Chart.AppVersion }}
+Nothing else, just updating the file
